@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LMS {
+public class LMS implements Observable{
     private List<String> grades = new ArrayList<>();
     private List<Observer> observers = new ArrayList<>();
 
